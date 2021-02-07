@@ -1763,6 +1763,51 @@
     </div>
     <!-- testimonial_area_end -->
 
+    <!--  INSCRIPCION A CURSO-->
+    <div class="our_courses">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-100">
+
+                        <form name="inscripciones" method="POST" data-netlify="true">
+                            <p>
+                                <label>Nombre: <input type="text" name="name" /></label>   
+                            </p>
+                            <p>
+                                <label>Your Email: <input type="email" name="email" /></label>
+                            </p>
+                            <p>
+                                <label>Your Role: <select name="role[]" multiple>
+                                <option value="leader">Leader</option>
+                                <option value="follower">Follower</option>
+                                </select></label>
+                            </p>
+                            <p>
+                                <label>Curso de tu interés: <select name="curso[]" multiple>
+                                    <option value="1">Comunidades Virtuales Marketing y reputación on line </option>
+                                    <option value="2">Gestión de Comunidades Virtuales</option>
+                                    <option value="3">Comercio en Internet Optimización de recursos</option>
+                                    <option value="4">Comunidades Virtuales Perfil y Funciones del Gestor</option>
+                                    <option value="5">Social Media Marketing en Comercio</option> 
+                                    <option value="6">Comercio Electrónico</option>                                                                       
+                                    </select>
+                                </label>                                
+                            </p>
+                            <p>
+                                <label>Message: <textarea name="message"></textarea></label>
+                            </p>
+                            <p>
+                                <button type="submit">Enviar</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  INSCRIPCION A CURSO FIN-->
+
     <!-- our_courses_start -->
     <div class="our_courses">
         <div class="container">
@@ -1824,31 +1869,6 @@
         </div>
     </div>
     <!-- our_courses_end -->
-
-    <!--  INSCRIPCION A CURSO-->
-    <div>
-        <form name="inscripciones" method="POST" data-netlify="true">
-            <p>
-                <label>Your Name: <input type="text" name="name" /></label>   
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
-                <label>Your Role: <select name="role[]" multiple>
-                  <option value="leader">Leader</option>
-                  <option value="follower">Follower</option>
-                </select></label>
-              </p>
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-        </form>
-    </div>
-    <!--  INSCRIPCION A CURSO FIN-->
 
     <!-- subscribe_newsletter_Start -->
     <div class="subscribe_newsletter">
