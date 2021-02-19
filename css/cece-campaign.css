@@ -34,3 +34,12 @@ html {
     color: #f3b674 !important;
   }
 
+/* Ajustes para el CANVA */
+.slider_area .single_slider {
+    height: 70vh !important;
+}
+.slider_area .single_slider .illastrator_png {
+    right: 190px !important;
+    width: 45em !important;
+}
+/* Ajustes para el CANVA */
