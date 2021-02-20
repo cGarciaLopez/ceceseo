@@ -71,3 +71,30 @@ html {
 }
 */
 /* Ajustes para el CANVA */
+
+/**** MEDIA DEVICES*****/
+@media (max-width: 420px) {    
+    .slider_area .single_slider {
+        height: 60vh !important;
+    }
+    .pdf_btn {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+}
+@media (min-width: 421px) and (max-width: 767px) {    
+    .slider_area .single_slider {
+        height: 65vh !important;
+    }
+    .pdf_btn {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {    
+}
+@media (min-width: 1024px) and (max-width: 1365px) {    
+}
+@media (min-width: 1366px) { 
+}
+/**** MEDIA DEVICES*****/
