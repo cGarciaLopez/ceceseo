@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>CECE | Formación. Cursos</title>
-    <meta name="keywords" content="cursos gratuitos para trabajadores, cursos para trabajadores, cursos inem para trabajadores, cursos para empleados, cursos para autonomos, cursos gratuitos para autonomos">
-    <meta name="description" content="Cursos para trabajadores y autónomos: Idiomas, Contabilidad, Hostelería, Marketing, Recursos Humanos, Sanidad... ¡Escoge tu curso favorito y apúntate gratis!">
+    <meta name="keywords"
+        content="cursos gratuitos para trabajadores, cursos para trabajadores, cursos inem para trabajadores, cursos para empleados, cursos para autonomos, cursos gratuitos para autonomos">
+    <meta name="description"
+        content="Cursos para trabajadores y autónomos: Idiomas, Contabilidad, Hostelería, Marketing, Recursos Humanos, Sanidad... ¡Escoge tu curso favorito y apúntate gratis!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
@@ -56,7 +58,8 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="http://www.cece.es">
-                                    <img src="/img/logo_cece.png" width="100" title="Confederación Española de Centros de Enseñanza">
+                                    <img src="/img/logo_cece.png" width="100"
+                                        title="Confederación Española de Centros de Enseñanza">
                                 </a>
                             </div>
                         </div>
@@ -103,8 +106,9 @@
 
                     <div class="col-xl-3 col-md-3 col-sm-4 col-xs-4">
                         <div class="slider_info">
-                            <h3>Cursos <br/> </h3>
-                            <a href="/anexos/ANEXO I O18.pdf" class="boxed_btn">Echa un vistazo al curso de Tutorías</a>
+                            <a href="javascript:void(0);"
+                                onclick="window.open('/anexos/ANEXO I O18.pdf','_blank','fullscreen=yes')"
+                                class="pdf_btn fa fa-file-pdf-o">&nbsp;Anexo</a>
                         </div>
                     </div>
                 </div>
@@ -126,46 +130,46 @@
     </div>
 
 
-   <!--  INSCRIPCION A CURSO-->
-   <div class="popup_box">
-    <div class="popup_inner">
-        <h3>Inscripción</h3>
+    <!--  INSCRIPCION A CURSO-->
+    <div class="popup_box">
+        <div class="popup_inner">
+            <h3>Inscripción</h3>
             <form name="inscripciones" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-            <div class="row">
-                <div class="col-xl-12 col-md-12">
-                    <input type="text" placeholder="Nombre" name="nombre">
-                </div>                        
-                <div class="col-xl-12 col-md-12">
-                    <input type="text" placeholder="Apellidos" name="apellidos">
-                </div>                        
-                <div class="col-xl-12 col-md-12">
-                    <input type="email" placeholder="E-mail" name="email">
-                </div>                        
-                <div class="col-xl-12 col-md-12">
-                    <select name="curso[]" multiple class="nice-select wide" size="7">
-                        <option value="0">Selecciona los cursos de tu interés</option>
-                        <option value="1">Comunidades Virtuales Marketing y reputación on line </option>
-                        <option value="2">Gestión de Comunidades Virtuales</option>
-                        <option value="3">Comercio en Internet Optimización de recursos</option>
-                        <option value="4">Comunidades Virtuales Perfil y Funciones del Gestor</option>
-                        <option value="5">Social Media Marketing en Comercio</option> 
-                        <option value="6">Comercio Electrónico</option>                                                                       
+                <div class="row">
+                    <div class="col-xl-12 col-md-12">
+                        <input type="text" placeholder="Nombre" name="nombre">
+                    </div>
+                    <div class="col-xl-12 col-md-12">
+                        <input type="text" placeholder="Apellidos" name="apellidos">
+                    </div>
+                    <div class="col-xl-12 col-md-12">
+                        <input type="email" placeholder="E-mail" name="email">
+                    </div>
+                    <div class="col-xl-12 col-md-12">
+                        <select name="curso[]" multiple class="nice-select wide" size="7">
+                            <option value="0">Selecciona los cursos de tu interés</option>
+                            <option value="1">Comunidades Virtuales Marketing y reputación on line </option>
+                            <option value="2">Gestión de Comunidades Virtuales</option>
+                            <option value="3">Comercio en Internet Optimización de recursos</option>
+                            <option value="4">Comunidades Virtuales Perfil y Funciones del Gestor</option>
+                            <option value="5">Social Media Marketing en Comercio</option>
+                            <option value="6">Comercio Electrónico</option>
                         </select>
-                </div>                        
+                    </div>
 
-                <div class="col-xl-12 col-md-12">
-                    <textarea name="message" placeholder="Observaciones, dudas, cuestiones..."></textarea>
-                    <input type="hidden" name="campaña" value="Ciberbullying">
-                </div>
+                    <div class="col-xl-12 col-md-12">
+                        <textarea name="message" placeholder="Observaciones, dudas, cuestiones..."></textarea>
+                        <input type="hidden" name="campaña" value="Ciberbullying">
+                    </div>
 
-                <div class="col-xl-12">
-                    <button type="submit" class="boxed_btn_orange">Enviar</button>
+                    <div class="col-xl-12">
+                        <button type="submit" class="boxed_btn_orange">Enviar</button>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
-</div>
-<!--  INSCRIPCION A CURSO FIN-->
+    <!--  INSCRIPCION A CURSO FIN-->
 
 
     <!-- footer -->
@@ -179,27 +183,32 @@
                                 <h3 class="footer_title">Síguenos</h3>
                             </div>
                             <p>
-                                Sigue nuestra actividad en las redes sociales y sé el primero en conocer las convocatorias de cursos gratuitos impartidos por CECE.
+                                Sigue nuestra actividad en las redes sociales y sé el primero en conocer las
+                                convocatorias de cursos gratuitos impartidos por CECE.
                             </p>
                             <div class="socail_links">
                                 <ul>
                                     <li>
-                                        <a href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=fcaae7b9d4&e=853601b36e">
+                                        <a
+                                            href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=fcaae7b9d4&e=853601b36e">
                                             <i class="ti-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=2b43b4d918&e=853601b36e">
+                                        <a
+                                            href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=2b43b4d918&e=853601b36e">
                                             <i class="ti-twitter-alt"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=f6479000cf&e=853601b36e">
+                                        <a
+                                            href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=f6479000cf&e=853601b36e">
                                             <i class="fa fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=0dfe7f17ca&e=853601b36e">
+                                        <a
+                                            href="https://cece.us14.list-manage.com/track/click?u=0e08a774c35e35d2b8de86061&id=0dfe7f17ca&e=853601b36e">
                                             <i class="fa fa-linkedin"></i>
                                         </a>
                                     </li>
@@ -260,7 +269,8 @@
                             Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
@@ -271,7 +281,7 @@
     <!-- footer -->
 
 
-  
+
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
