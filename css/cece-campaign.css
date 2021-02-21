@@ -31,6 +31,9 @@ ul.unordered-list{
     background: #fff;
     top: 10px !important;
 }
+.footer_widget li{
+    color:#bababa !important;
+}
 /** ELEMENTOS HTML END**/
 
 /* Ajustes para el CANVA */
