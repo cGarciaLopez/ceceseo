@@ -1,3 +1,4 @@
+/** ELEMENTOS HTML **/
 html {
     scroll-behavior: smooth;
 }
@@ -8,7 +9,21 @@ html {
 .header-area{
     background-color:rgb(100, 136, 237);
 }
+h1,h3{
+    color: #000;
+}
+/** ELEMENTOS HTML END**/
 
+/* Ajustes para el CANVA */
+.slider_area .single_slider {
+    height: 75vh !important;
+}
+/* Ajustes para el CANVA */
+
+
+
+
+/** CONTROLES **/
 .boxed_btn_orange_cece {
     cursor: pointer;
     font-size: 16px;
@@ -58,19 +73,8 @@ html {
     border: 1px solid #f3b674;
     color: #f3b674 !important;
   }
+  /** CONTROLES END **/
 
-/* Ajustes para el CANVA */
-
-.slider_area .single_slider {
-    height: 75vh !important;
-}
-/*
-.slider_area .single_slider .illastrator_png {
-    right: 190px !important;
-    width: 45em !important;
-}
-*/
-/* Ajustes para el CANVA */
 
 /**** MEDIA DEVICES*****/
 @media (max-width: 420px) {    
