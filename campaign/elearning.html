@@ -119,7 +119,7 @@
                     </div>
                     <div class="col-xl-6 col-md-6 col-sm-6 col-xs-6">
                         <div class="d-flex align-items-center justify-content-center">
-                            <a href="javascript:void(0);" class="pdf_btn fa fa-address-card">&nbsp;Formulario de inscripción</a>
+                            <a href="#form_campaing" class="pdf_btn fa fa-address-card">&nbsp;Formulario de inscripción</a>
                         </div>
                     </div>                
                 </div>
@@ -130,30 +130,7 @@
     </div>
     <!-- slider_area_end -->
 
-    <!-- botones-->
-    <!--
-    <div class="popular_courses">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-md-6 col-sm-6 col-xs-6">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <a href="javascript:void(0);"
-                            onclick="window.open('/anexos/ANEXO I O18.pdf','_blank','fullscreen=yes')"
-                            class="pdf_btn fa fa-file-pdf-o">&nbsp;Anexo de participantes</a>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-md-6 col-sm-6 col-xs-6">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <a href="javascript:void(0);" class="pdf_btn fa fa-address-card">&nbsp;Formulario de inscripción</a>
-                    </div>
-                </div>                
-            </div>
-        </div>
-    </div>
-    -->
-    <!-- botones end-->
-
-    <!-- contenido curso-->
+<!-- contenido curso-->
 <div class="whole-wrap">
     <div class="container">
         <div class="section-top-border">
@@ -260,42 +237,45 @@
 
 
     <!--  INSCRIPCION A CURSO-->
-    <div class="popup_box">
-        <div class="popup_inner">
-            <h3>Inscripción</h3>
-            <form name="inscripciones" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                <div class="row">
-                    <div class="col-xl-12 col-md-12">
-                        <input type="text" placeholder="Nombre" name="nombre">
-                    </div>
-                    <div class="col-xl-12 col-md-12">
-                        <input type="text" placeholder="Apellidos" name="apellidos">
-                    </div>
-                    <div class="col-xl-12 col-md-12">
-                        <input type="email" placeholder="E-mail" name="email">
-                    </div>
-                    <div class="col-xl-12 col-md-12">
-                        <select name="curso[]" multiple class="nice-select wide" size="7">
-                            <option value="0">Selecciona los cursos de tu interés</option>
-                            <option value="1">Comunidades Virtuales Marketing y reputación on line </option>
-                            <option value="2">Gestión de Comunidades Virtuales</option>
-                            <option value="3">Comercio en Internet Optimización de recursos</option>
-                            <option value="4">Comunidades Virtuales Perfil y Funciones del Gestor</option>
-                            <option value="5">Social Media Marketing en Comercio</option>
-                            <option value="6">Comercio Electrónico</option>
-                        </select>
-                    </div>
+    <div class="section-top-border" id="form_campaing">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"></div>
 
-                    <div class="col-xl-12 col-md-12">
-                        <textarea name="message" placeholder="Observaciones, dudas, cuestiones..."></textarea>
-                        <input type="hidden" name="campaña" value="Ciberbullying">
+            <div class="col-lg-6 col-md-6 p-5 cece_form">
+                <h3 class="mb-30 white-color">Inscríbete al curso de CiberBullying</h3>
+                <form name="ciberbullying" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <!-- Nombre-->
+                    <div class="mt-10">
+                        <input type="text" name="nombre" placeholder="Nombre"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nombre'" required
+                            class="single-input">
                     </div>
-
+                    <!-- Primer apellido -->
+                    <div class="mt-10">
+                        <input type="text" name="primer_apellido" placeholder="Primer apellido"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primer apellido'" required
+                            class="single-input">
+                    </div>
+                    <!-- Segundo apellido-->
+                    <div class="mt-10">
+                        <input type="text" name="segundo_apellido" placeholder="Segundo apellido"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Segundo apellido'" required
+                            class="single-input">
+                    </div>
+                    <!-- Correo electrónico-->
+                    <div class="mt-10">
+                        <input type="text" name="email" placeholder="Correo electrónico"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Correo electrónico'" required
+                            class="single-input">
+                    </div>
+                    <hr/>                   
                     <div class="col-xl-12">
-                        <button type="submit" class="boxed_btn_orange">Enviar</button>
+                        <button type="submit" class="boxed_btn_orange_cece">Enviar</button>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
+
+            <div class="col-lg-3 col-md-3"></div>
         </div>
     </div>
     <!--  INSCRIPCION A CURSO FIN-->
