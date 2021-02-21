@@ -12,6 +12,21 @@ html {
 h1,h3{
     color: #000;
 }
+ul.unordered-list{
+    /*color:#3f1c0b;*/
+    font-weight: bold;
+    font-size: 0.9rem !important;
+}
+.unordered-list li{
+    line-height: 1.72em !important;
+}
+.unordered-list li::before {
+    width: 10px !important;
+    height: 10px !important;
+    border: 3px solid #ff5e13;
+    background: #fff;
+    top: 10px !important;
+}
 /** ELEMENTOS HTML END**/
 
 /* Ajustes para el CANVA */
