@@ -34,8 +34,12 @@ ul.unordered-list{
     height: 75vh !important;
 }
 /* Ajustes para el CANVA */
-
-
+.cece_form{
+    background-color: #224b48;
+}
+.white-color{
+    color: #fff;
+}
 
 
 /** CONTROLES **/
