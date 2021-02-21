@@ -12,6 +12,10 @@ html {
 h1,h3{
     color: #000;
 }
+label {
+    color: #fff !important;
+    font-weight: bold !important;
+}
 ul.unordered-list{
     /*color:#3f1c0b;*/
     font-weight: bold;
